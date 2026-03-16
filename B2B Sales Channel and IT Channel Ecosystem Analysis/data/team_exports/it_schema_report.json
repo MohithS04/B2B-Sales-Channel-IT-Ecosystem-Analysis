@@ -1,0 +1,31 @@
+{
+    "report_date": "2026-03-16",
+    "table": "transactions",
+    "record_count": 600,
+    "columns": [
+        "transaction_id",
+        "customer_id",
+        "region",
+        "product",
+        "deal_value",
+        "sales_stage",
+        "churn_risk_score",
+        "rep_id",
+        "close_date",
+        "channel_type",
+        "timestamp"
+    ],
+    "data_types": {
+        "transaction_id": "int64",
+        "customer_id": "object",
+        "region": "object",
+        "product": "object",
+        "deal_value": "float64",
+        "sales_stage": "object",
+        "churn_risk_score": "float64",
+        "rep_id": "object",
+        "close_date": "object",
+        "channel_type": "object",
+        "timestamp": "object"
+    }
+}
